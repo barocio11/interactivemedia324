@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>loves me loves me not - game</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+	<script src="flower.js"></script>
+	<script src="game.js"></script>
+	<script src="trianglePointsToDegrees.js"></script>
+	<script src="log.js"></script>
+	<link rel="stylesheet" href="love.css" />
+	<link href='http://fonts.googleapis.com/css?family=Gravitas+One' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<meta name="description" content="Love me, Love me not game" />
+	<meta name="keywords" content="love, flower, Loves Me Daisy Petal Game, petal" />
+	<link rel="canonical" href="http://theelove.me/" />
+
+</head>
+<body>
+	
+
+	<div id="wrapper">
+		<div id="game">
+			<div id="loveNote">
+				<h1 id="loveOrNot">They love me. They love me not.</h1>
+			</div>
+			<div id="intro">
+				<form>
+					<input type="radio" name="sex" checked value="They">
+                    <input type="radio" name="sex" value="They"><br>
+					<span>Enter name&nbsp;&nbsp;</span><input type="text" id="name"></input>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<input type="button" id="start" value="play"></input>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+				</form>
+			</div>
+			<div id="gameArea">
+				<div id="flower"></div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-38490503-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function () {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+</body>
+</html>

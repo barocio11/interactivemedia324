@@ -1,0 +1,91 @@
+
+html{
+	font-family: georgia;
+	background:  #2D0505;
+	height: 100%;
+}
+
+#game h1{
+	color: #00FF00;  
+	padding-top: 160px; 
+	font-family: OCR A Std; 
+	font-weight: lighter; 
+	font-size: 50px;
+	text-align:center;}
+
+#intro{
+	text-align: center;
+}
+
+#ad{
+	text-align: center;
+}
+
+#flower{
+	width: 350px;
+	margin-left: auto ;
+  	margin-right: auto ;
+}
+
+.petals{
+	cursor: pointer;
+}
+
+#loveGPlusOne {
+	text-align: center;
+	display: none;
+}
+
+.fb_edge_widget_with_comment {
+	margin-left: 10px;
+}
+
+/*button*/
+input[type=button] {
+    background: url(center.png);
+    border: 0;
+    display: center;
+    height: 200px;
+    width:200px;
+	background-size: 200px 200px;
+	color: #2f3647;
+	position: fixed;
+ }
+
+ input[type=button]:hover{
+	position: fixed;
+    box-shadow: 1px 0px 20px #00FF00; 
+  	display: center;
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+	color:  #2f3647;
+}
+
+#name{
+	border-radius: 25px ; 
+	height: 30px;
+	width: 250px;
+	z-index: 1;
+	background-color: #2f3647
+}
+
+input[type=text]{
+	color: #00FF00;
+ 	font-size: 23px;
+ 	font-family:Gill sans;
+ 	padding-left: 10px;
+ 	
+ }
+
+span {
+	color: #00FF00; 
+	font-family: Gill sans; 
+	font-weight: lighter; 
+	font-size: 23px
+}
+
+input[type=radio]{
+	display:none;
+}
