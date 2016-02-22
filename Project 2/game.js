@@ -5,8 +5,8 @@ $(function() {
 
         var gameValues = new PlayerSelectedValues();
         log("Game Values Created");
-
-        var flower = new Flower(gameValues.sex());
+//here is were i changed it
+        var flower = new Flower(gameValues.name()); 
         log("Flower Created");
         log("# of Flower Petals " + flower.petals());
 
@@ -90,7 +90,7 @@ function FlowerView(flowerData, gameValues){
         
         // Sets the stroke attribute of the circle to white
         petalEllipse.attr("stroke", "#00FF00");
-        petalEllipse.attr("stroke-opacity", 0.5);
+        petalEllipse.attr("stroke-opacity", 1.5);
 
         petalEllipse.click( function(){ 
             flowerData.removePetal();
@@ -109,12 +109,14 @@ function FlowerView(flowerData, gameValues){
 
     var flowerCenter = this.paper.circle(centerX, centerY, 25);
 
+
     // Sets the fill attribute of the center circle 
-    flowerCenter.attr("fill", "");
+
+   
 
 
     // Sets the stroke attribute of the circle to white
-    flowerCenter.attr("stroke", "#fff");
+    flowerCenter.attr("stroke", "#00FF00");
     
     //debug code
     if(debug){
@@ -150,7 +152,8 @@ function FlowerView(flowerData, gameValues){
 
 function GameOver(flowerData, gameValues){
     log("game over");
-        var finalWords = "Error; Love still not found";
+
+        var finalWords = "Error; Love not found";
         confirm("You won't ever find love here");
 
     if(!flowerData.isItLove())

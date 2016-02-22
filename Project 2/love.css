@@ -1,6 +1,6 @@
 
 html{
-	font-family: georgia;
+	font-family: OCR A Std, Orbitron;
 	background:  #2D0505;
 	height: 100%;
 }
@@ -8,10 +8,10 @@ html{
 #game h1{
 	color: #00FF00;  
 	padding-top: 160px; 
-	font-family: OCR A Std; 
+	font-family: OCR A Std, Orbitron; 
 	font-weight: lighter; 
 	font-size: 50px;
-	text-align:center;}
+text-align:center;}
 
 #intro{
 	text-align: center;
@@ -39,8 +39,7 @@ html{
 .fb_edge_widget_with_comment {
 	margin-left: 10px;
 }
-
-/*button*/
+/*button
 input[type=button] {
     background: url(center.png);
     border: 0;
@@ -51,7 +50,20 @@ input[type=button] {
 	color: #2f3647;
 	position: fixed;
  }
-
+ */
+ input[type=button]
+ {width: 100px; 
+ height: 100px; 
+ background: #2D0505;
+ -moz-border-radius: 50px;
+ -webkit-border-radius: 50px;
+ border-radius: 50px ;
+display: center;
+color: #00ff00;
+border-style: solid;
+   border-color: #00ff00;
+}
+/*button
  input[type=button]:hover{
 	position: fixed;
     box-shadow: 1px 0px 20px #00FF00; 
@@ -62,6 +74,18 @@ input[type=button] {
     border-radius: 100px;
 	color:  #2f3647;
 }
+*/
+input[type=button]:hover{
+	
+    box-shadow: 1px 0px 20px #00FF00; 
+  	display: center;
+    width: 100px; 
+ height: 100px; 
+ background: #2D0505;
+ -moz-border-radius: 50px;
+ -webkit-border-radius: 50px;
+ border-radius: 50px;
+	color:  #00ff00;}
 
 #name{
 	border-radius: 25px ; 
@@ -89,3 +113,14 @@ span {
 input[type=radio]{
 	display:none;
 }
+#flowercenter {
+    
+    
+    height: 50px;
+    width:50px;
+	background: url(center.png);
+	background-size: 50px 50px;
+	z-index: 2;
+	display: center;
+	
+ }
