@@ -159,7 +159,7 @@ function GameOver(flowerData, gameValues){
     if(!flowerData.isItLove())
     {
         finalWords = "Error; Love not found";
-        confirm("And if you did, It wouldn't last");
+        confirm("01101100 01101111 01110110 01100101");
     }
 
     $("#loveNote").append("<h1>" + finalWords + "</H1>");
